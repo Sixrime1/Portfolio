@@ -6850,10 +6850,8 @@ a.close.disabled {
   margin-right: -100%;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
-  -webkit-transition: -webkit-transform 0.6s ease-in-out;
-  transition: -webkit-transform 0.6s ease-in-out;
-  transition: transform 0.6s ease-in-out;
-  transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
+  
+  
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -6903,8 +6901,7 @@ a.close.disabled {
 .carousel-fade .active.carousel-item-right {
   z-index: 0;
   opacity: 0;
-  -webkit-transition: 0s 0.6s opacity;
-  transition: 0s 0.6s opacity;
+  
 }
 
 
@@ -6938,8 +6935,7 @@ a.close.disabled {
   color: #fff;
   text-align: center;
   opacity: 0.5;
-  -webkit-transition: opacity 0.15s ease;
-  transition: opacity 0.15s ease;
+  
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -7020,8 +7016,7 @@ a.close.disabled {
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
   opacity: .5;
-  -webkit-transition: opacity 0.6s ease;
-  transition: opacity 0.6s ease;
+  
 }
 
 @media (prefers-reduced-motion: reduce) {
